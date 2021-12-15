@@ -1,4 +1,7 @@
+ 
+
 <?PHP
+// this  project is on oops crud for learing purpose //
 include "dbConfigDB.php";
 $obj = new dbconfigDB();
 // $obj->insertData("add_data_tbl",["name"=>"monty","edu"=>"MCA","email"=>"rj.rajesh@gmail.com","mobile"=>"9935526860"]);
@@ -7,13 +10,13 @@ $obj = new dbconfigDB();
 
 // $obj->selectData("add_data_tbl");
 
-$obj->delRecorde("add_data_tbl"," id = '1' ");
+$obj->delRecorde("add_data_tbl"," id = '2' ");
 // first commit in get hub //;
 $obj->getResult();
 echo "<pre>";
 print_r($obj->getResult());
 
 
-
+// change if //
 
 ?>
