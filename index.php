@@ -8,7 +8,7 @@ $obj = new dbconfigDB();
 // $obj->selectData("add_data_tbl");
 
 $obj->delRecorde("add_data_tbl"," id = '1' ");
-
+// first commit in get hub //;
 $obj->getResult();
 echo "<pre>";
 print_r($obj->getResult());
